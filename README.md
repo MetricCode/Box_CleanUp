@@ -14,6 +14,8 @@ Ensure that you are running the script as root.
 Run the script: python3 cleanup.py
 The script will prompt you to perform various tasks. Simply enter "y" or "n" to answer.
 
+You can use this to make your motd ascii art. Add the art to a file and when you're at the edit_motd() function, give it the file location.
+
 Functionality:
 Clears Apache logs.
 Clears system logs.
