@@ -1,4 +1,4 @@
-#/usr/bin/env python3
+#!/usr/bin/env python3
 #@Author : M3tr1c_r00t
 
 import os
@@ -146,4 +146,5 @@ try:
     main()
 except KeyboardInterrupt:
     print(colored("\n Exiting...\n","yellow"))
+#You can use this to make your motd ascii art. Add the art to a file and when you're at the edit_motd() function, give it the file location.
 #https://www.asciiart.eu/comics/spiderman
